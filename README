@@ -1,0 +1,49 @@
+Bus Reservation in C language 
+Overview
+This Bus Reservation System is a console-based application developed in the C programming language. It facilitates the management of bus bookings, providing functions for reservation, cancellation, and display of available seats.
+Features
+Reservation: Users can reserve seats for a specified destination and date.
+
+Cancellation: Allows users to cancel their existing reservations.
+
+Seat Availability: Displays the current status of available and booked seats.
+
+User-friendly Interface: The application provides a simple and intuitive interface for users to interact with.
+
+Functions
+1. Reserve Seat
+This function handles the reservation process, allowing users to select a destination, date, and seat.
+2. Cancel Reservation
+
+void cancelReservation();
+Enables users to cancel their existing reservations by providing their booking details.
+
+3. Display Seat Availability
+
+void displaySeats();
+Displays the current status of seats, indicating which ones are available and booked.
+
+4. Main Menu
+int main();
+The main function acts as the control center, presenting options to the user and calling relevant functions based on their choices.
+
+5. Initialize Seats
+void initializeSeats();
+Sets up the initial state of seats, marking them as available for reservation.
+
+6. Display Menu
+void displayMenu();
+Prints the menu options for users to choose from.
+
+How to Use
+Compile the source code using a C compiler.
+Run the executable file.
+Follow the on-screen prompts to navigate through the reservation system.
+Note
+This application is designed for educational purposes to demonstrate basic principles of programming in C.
+Feel free to explore and modify the code to enhance its functionality or adapt it for specific needs.
+
+<!---
+JacintaNasikoi/JacintaNasikoi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
